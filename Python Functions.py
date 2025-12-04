@@ -84,3 +84,38 @@
 # unique_words = set(sentence.split())
 # print(unique_words)
 
+# sq = []
+# for i in range(1, 11):
+#     sq.append(i**2)
+# print(sq)
+
+# stack = []
+
+# stack.append(1)
+# stack.append(2)
+# stack.append(3)
+
+# print(stack)
+# print(stack.pop())
+# print(stack.pop())
+# print(stack.pop())
+# print(stack)
+
+
+# list1 = [1, 2, 3, 4, 5]
+# list2 = ['a', 'b', 'c', 'd', 'e']
+# list1.extend(list2)
+# print(list1)
+
+# a = 10
+# b = 13
+# # dif = abs(a - b)
+# dif = a - b
+# print(dif)
+
+# print(pow(7,5))
+
+int1 = 10
+int2 = 3
+
+print(divmod(int1, int2))  # (3, 1)
