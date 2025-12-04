@@ -118,4 +118,26 @@
 int1 = 10
 int2 = 3
 
-print(divmod(int1, int2))  # (3, 1)
+# print(divmod(int1, int2))  # (3, 1)
+
+# string1 = "Hello"
+# for i in string1:
+#     print(ord(i), end=" ")  # 72 101 108 108 111
+
+
+# for i in range(97, 103):
+#     print(chr(i), end=" ")  # a b c d e f
+
+# sent = "The quick brown fox"
+# # print(sent.split())
+# for i in sent.split():
+#     print(i)
+
+
+
+# char = ['b', 'r', 'o', 'w', 'n']
+# print(''.join(char))  # brown
+
+# nums = [10, 20, 30]
+# it = iter(nums)
+# print(next(it))  # 10
