@@ -80,6 +80,9 @@
 # sent = "This is a sample sentence"
 # print(set(sent.split()))
 
+# temnp = "thisisimagevisionai"
+# print(set(temnp))
+
 # sentence = "The quick brown fox jumps over the lazy dog"
 # unique_words = set(sentence.split())
 # print(unique_words)
@@ -115,8 +118,8 @@
 
 # print(pow(7,5))
 
-int1 = 10
-int2 = 3
+# int1 = 10
+# int2 = 3
 
 # print(divmod(int1, int2))  # (3, 1)
 
@@ -141,3 +144,16 @@ int2 = 3
 # nums = [10, 20, 30]
 # it = iter(nums)
 # print(next(it))  # 10
+
+
+# d1 = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964,
+#     "year": 2020
+# }
+# # print(d1["brand"])
+# print(len(d1))
+
+d2 = dict(brand="Ford", model="Mustang", year=1964)
+print(d2)
