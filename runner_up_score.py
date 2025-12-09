@@ -21,12 +21,28 @@
 
 
 arr = [2, 3, 6, 6, 5]
+n = 5
 
-new_arr = list(set(arr))
-print(f"New array : {new_arr}")
+table = {}
 
-arr_sort = sorted(new_arr, reverse=True)
-print(f"printing sorted array {arr_sort}")
-# max_arr = list(max(arr_sort)
+for i in arr:
+    table[i] = table.get(i, 0) + 1
+    print(table)
 
-print(arr_sort[1])
+unique_values = list(table.keys())
+print(unique_values)
+unique_values.sort(reverse=True)
+print(unique_values)
+print(unique_values[1])
+
+
+
+
+# new_arr = list(set(arr))
+# print(f"New array : {new_arr}")
+
+# arr_sort = sorted(new_arr, reverse=True)
+# print(f"printing sorted array {arr_sort}")
+# # max_arr = list(max(arr_sort)
+
+# print(arr_sort[1])
