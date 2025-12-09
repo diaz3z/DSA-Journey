@@ -21,6 +21,12 @@
 
 
 arr = [2, 3, 6, 6, 5]
-arr_sort = sorted(arr)
 
-print(arr_sort[-1])
+new_arr = list(set(arr))
+print(f"New array : {new_arr}")
+
+arr_sort = sorted(new_arr, reverse=True)
+print(f"printing sorted array {arr_sort}")
+# max_arr = list(max(arr_sort)
+
+print(arr_sort[1])
