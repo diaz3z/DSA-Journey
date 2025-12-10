@@ -41,11 +41,13 @@
 # Harry
 
 
+
 records = []
 def cal(name, score):
     for i in records:
         # print(i)
-    print(records)
+        pass
+    print(records, "!!!!!!!!!!")
 
 
 
@@ -54,4 +56,5 @@ if __name__ == '__main__':
         name = input()
         score = float(input())
         records.append([name, score])
-        cal(name, score)
+        # cal(name, score)
+    print(records, "##########")
