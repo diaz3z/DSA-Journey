@@ -42,19 +42,19 @@
 
 
 
-records = []
-def cal(name, score):
-    for i in records:
-        # print(i)
-        pass
-    print(records, "!!!!!!!!!!")
+# records = []
+# def cal(name, score):
+#     for i in records:
+#         # print(i)
+#         pass
+#     print(records, "!!!!!!!!!!")
 
 
 
-if __name__ == '__main__':
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
-        records.append([name, score])
-        # cal(name, score)
-    print(records, "##########")
+# if __name__ == '__main__':
+#     for _ in range(int(input())):
+#         name = input()
+#         score = float(input())
+#         records.append([name, score])
+#         # cal(name, score)
+#     print(records, "##########")
