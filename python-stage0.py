@@ -20,15 +20,26 @@
 
 # Right Triangle
 
-num = 5
+# num = 5
 
+# for i in range(num):
+#     for j in range(i + 1):
+#         print("*", end=" ")
+#     print()
+
+
+# Inverted Right Triangle
+
+num = 5
 for i in range(num):
-    for j in range(i + 1):
+    for j in range(i, num):
         print("*", end=" ")
     print()
 
 
-# Inverted Right Triangle
+# Left Triangle
+
+
 
 # Pyramid
 
