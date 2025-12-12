@@ -30,18 +30,51 @@
 
 # Inverted Right Triangle
 
-num = 5
-for i in range(num):
-    for j in range(i, num):
-        print("*", end=" ")
-    print()
+# num = 5
+# for i in range(num):
+#     for j in range(i, num):
+#         print("*", end=" ")
+#     print()
 
 
 # Left Triangle
 
-
+# num = 5
+# for i in range(num):
+#     for j in range(i, num):
+#         print(" ", end=" ")
+#     for j in range(i + 1):
+#         print("*", end=" ")
+#     print()
 
 # Pyramid
+
+# num = 5
+# for i in range(num):
+#     for j in range(i, num):
+#         print(" ", end="")
+#     for j in range(i + 1):
+#         print("*", end=" ")
+#     print()
+
+
+
+# Right sided Triangle
+
+num = 5
+for i in range(num):
+    for j in range(i+1):
+        print(" ", end=" ")
+    for j in range(i, num):
+        print("*", end=" ")
+    print()
+
+#   * * * * * 
+#     * * * * 
+#       * * *
+#         * *
+#           *
+
 
 # Inverted Pyramid
 
