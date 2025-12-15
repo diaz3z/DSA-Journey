@@ -102,17 +102,24 @@
 
 
 
+# Hill Pattern / Pyramid Pattern
 
-
-# Pyramid
-
-# num = 5
-# for i in range(num):
-#     for j in range(i, num):
-#         print(" ", end="")
-#     for j in range(i + 1):
+# n = 5
+# for i in range(n):
+#     for j in range(i, n):
+#         print(" ", end=" ")
+#     for j in range(i+ 1):
+#         print("*", end=" ")
+#     for j in range(i):
 #         print("*", end=" ")
 #     print()
+
+#           * 
+#         * * * 
+#       * * * * * 
+#     * * * * * * * 
+#   * * * * * * * * * 
+
 
 
 
