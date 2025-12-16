@@ -57,7 +57,18 @@
 # amount.set_balance = -154
 # # print(amount.set_balance)
 
+# Encapsulation
+# Hiding internal data in the class and only exposing only necessary.
 
+# class zaid:
+#     def __init__(self, age, salary):
+#         self.age = age
+#         self.__salary = salary
+
+
+# diaz = zaid(23, 600)
+# print(diaz.age)
+# print(diaz.__salary)
 
 
 
