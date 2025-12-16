@@ -93,10 +93,38 @@
 # print(a.brand, a.price)
 # print(a)
 
+# import copy
 
+# original = [[1, 2], [3, 4]]
 
+# shallow = copy.copy(original)
+# deep = copy.deepcopy(original)
 
+# original[0][0] = 99
 
+# print(shallow)  # affected
+# print(deep)     # not affected
+
+# import copy
+# orig_arr = [[43, 56],[89, 23]]
+
+# shallow = copy.copy(orig_arr)
+# deep_copy = copy.deepcopy(orig_arr)
+
+# orig_arr[0][1]= 0
+# print(shallow)
+# print(deep_copy)
+
+# Destructors
+
+# class notting:
+#     def __init__(self):
+#         print("object created")
+        
+#     def __del__(self):
+#         print("Object deleted")
+# obj = notting()
+# del obj
 
 
 
