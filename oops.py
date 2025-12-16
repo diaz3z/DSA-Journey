@@ -71,6 +71,23 @@
 # print(diaz.__salary)
 
 
+# class mobile:
+#     def __init__(self,brand,battery):
+#         self.brand = brand
+#         self.__batery = battery
+
+# ar = mobile("samsung", "exide")
+# print(ar.brand)
+# print(ar.__batery)
+
+
+
+
+
+
+
+
+
 
 
 
