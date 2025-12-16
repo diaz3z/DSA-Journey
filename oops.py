@@ -161,3 +161,39 @@
 # obj.designation()
 
 
+
+
+
+# class Animal:
+#     def sound(self):
+#         return "Some generic sound"
+
+# class Dog(Animal):
+#     def sound(self):
+#         return "Bark"
+
+# class Cat(Animal):
+#     def sound(self):
+#         return "Meow"
+
+# # Polymorphic behavior
+# animals = [Dog(), Cat(), Animal()]
+# for animal in animals:
+#     print(animal.sound())
+
+
+
+# class Circle:
+#     def area(self):
+#         print(" (pi * radius) ** 2")
+    
+# class Rectangle:
+#     def area(self):
+#         print("lenght * breadth")
+
+
+# obj = (Circle(), Rectangle())
+
+# for object in obj:
+#     object.area()
+
