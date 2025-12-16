@@ -197,3 +197,25 @@
 # for object in obj:
 #     object.area()
 
+
+
+
+
+class Parent:
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+    def show(self):
+        print("Child")
+
+obj = (Parent(), Child())
+for object in obj:
+    object.show()
+
+
+
+
+
+
+
