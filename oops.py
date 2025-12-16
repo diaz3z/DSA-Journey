@@ -82,8 +82,16 @@
 
 
 
+# class Laptop:
+#     def __init__(self, brand, price):
+#         self. brand = brand
+#         self.price = price
+#     def __str__(self):
+#         return f"Lapton Brand: {self.brand} and Laptop price: {self.price}"
 
-
+# a = Laptop("HP", "75K")
+# print(a.brand, a.price)
+# print(a)
 
 
 
