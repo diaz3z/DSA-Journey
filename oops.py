@@ -127,7 +127,37 @@
 # del obj
 
 
+# Inheritance
 
+# class Vehicle:
+#     def speed(self):
+#         print("300km per hour")
 
+# class Car(Vehicle):
+#     def brand(self):
+#         print("Bugatti!!!!!")
+
+# obj = Car()
+# obj.speed()
+# obj.brand()
+
+# single level inheritance and multi level inheritance
+
+# class Person:
+#     def name(self):
+#         print("name of person")
+
+# class Employee(Person):
+#     def status(self):
+#         print("Employee status of person")
+
+# class Manager(Employee):
+#     def designation(self):
+#         print("Designation of the employee")
+
+# obj = Manager()
+# obj.name()
+# obj.status()
+# obj.designation()
 
 
