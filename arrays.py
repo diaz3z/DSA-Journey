@@ -23,3 +23,49 @@
 # refund = 200
 # expense[3] = expense[3] + refund
 # print(f"updated list after refund { expense}")
+
+
+
+# heros=['spider man','thor','hulk','iron man','captain america']
+
+# print(f"Printing the lenght of the list: {len(heros)}")
+# print()
+
+# heros.append("black panther")
+# print(f"Updated list after adding black panther {heros}")
+# print()
+
+
+# heros.pop()
+# heros.insert(3, "black panther")
+# print(f"Updated list after adding black panther after hulk: {heros}")
+# print()
+
+
+# heros[1:3] = ["Doctor Strange"]
+# print(f"Updated list after adding doctor strange {heros}")
+# print()
+
+# # print(dir(list))
+# heros.sort()
+# print(f"Printing sorted list alphabetical order {heros}")
+
+
+
+
+
+
+# max_user = int(input("Add some no."))
+# list1 = []
+# for i in range(1, max_user):
+#     if i % 2 != 0:
+#         list1.append(i)
+#     else:
+#         pass
+# print(f"List of all odd numbers {list1}")
+
+
+
+
+
+
