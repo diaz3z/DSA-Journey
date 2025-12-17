@@ -63,9 +63,11 @@
 
 
 
-
-
-
+arr = [6, 1, 6, 5, 8, 4]
+        # max_el = max(arr)
+sort_arr = sorted(arr)
+print(sort_arr, "sorted array")
+print(sort_arr[-1] + sort_arr[-2] + sort_arr[-3])
 
 
 
