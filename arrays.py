@@ -52,9 +52,6 @@
 
 
 
-
-
-
 # max_user = int(input("Add some no."))
 # list1 = []
 # for i in range(1, max_user):
@@ -63,6 +60,34 @@
 #     else:
 #         pass
 # print(f"List of all odd numbers {list1}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
