@@ -63,23 +63,59 @@
 
 
 
-arr = [6, 1, 6, 5, 8, 4]
-        # max_el = max(arr)
-sort_arr = sorted(arr)
-print(sort_arr, "sorted array")
-print(sort_arr[-1] + sort_arr[-2] + sort_arr[-3])
+# arr = [6, 1, 6, 5, 8, 4]
+#         # max_el = max(arr)
+# sort_arr = sorted(arr)
+# print(sort_arr, "sorted array")
+# print(sort_arr[-1] + sort_arr[-2] + sort_arr[-3])
 
 
+# Love Babbar DSA Questions
 
 
+# arr = [1, 4, 3, 2, 6, 5]  
+# arr = arr[::-1]
+# print(arr)
+
+# arr = [22, 14, 8, 17, 35, 3]
+# N = len(arr)
+
+# mini = arr[0]
+# maxi = arr[0]
+
+# for i in range(N):
+#     if arr[i] > maxi:
+#         maxi = arr[i]
+#     elif arr[i] < mini:
+#         mini = arr[i]
+# print(f" {maxi}, {mini}")
+
+# arr = [10, 5, 4, 3, 48, 6, 2, 33, 53, 10]
+# k = 4
+# arr.sort()
+# print(arr)
+# print(arr[k-1])
 
 
+arr = [0, 1, 2, 0, 1, 2]
+
+low = 0
+mid = 0
+high = len(arr) - 1
+
+while mid <= high:
+    if arr[low] == 0:
+        arr[low], arr[mid] = arr[mid], arr[low]
+        mid += 1
+        low += 1
+    elif arr[mid] == 1:
+        mid += 1
+    elif arr[mid] == 2:
+        arr[mid], arr[high] = arr[high], arr[mid]
+        high -= 1
 
 
-
-
-
-
+print(arr)
 
 
 
