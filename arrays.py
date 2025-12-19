@@ -140,17 +140,20 @@
 # if "model" in thisdict:
 #     print("Model key is available in dictionary!")
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
 
 # thisdict["year"] = 1954
 # thisdict.update({'year': 2020})
-thisdict.pop()
+# thisdict.pop('brand')
+# thisdict.popitem()
+# del thisdict["brand"]
+# thisdict.clear()
 
-print(thisdict)
+# print(thisdict)
 
 # thisdict = {
 #   "brand": "Ford",
@@ -163,11 +166,38 @@ print(thisdict)
 
 
 
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# # for x in thisdict.values():
+# # for x in thisdict.keys():
+# for x in thisdict.items():
+#     print(x)
 
 
 
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
 
-
+for x, obj in myfamily.items():
+    print(x)
+    for y in obj:
+        print(y + ":", obj[y])
 
 
 
