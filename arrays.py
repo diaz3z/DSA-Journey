@@ -118,8 +118,47 @@
 # print(arr)
 
 
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
 
+# print(thisdict['brand'])
+# print(thisdict.get('model'))
+# print(list(thisdict.keys()))
+# print(thisdict.keys())
+# print(tuple(thisdict.keys()))
+# thisdict['color'] = 'black'
 
+# print(list(thisdict.keys()))
+# print(thisdict.get('model'))
+# print(thisdict.keys())
+# print(thisdict.values())
+# print(thisdict.items())
+
+# if "model" in thisdict:
+#     print("Model key is available in dictionary!")
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# thisdict["year"] = 1954
+# thisdict.update({'year': 2020})
+thisdict.pop()
+
+print(thisdict)
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964,
+#   "year": 2020
+# }
+# print(len(thisdict))
 
 
 
