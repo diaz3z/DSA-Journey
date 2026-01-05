@@ -9,3 +9,4 @@ arr = [4, 2, 3, 1, 5, 7, 9, 6, 8]
 target = 7
 result = linear(arr, target)
 print(result)
+
