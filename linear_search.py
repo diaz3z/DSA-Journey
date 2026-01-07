@@ -10,3 +10,4 @@ target = 7
 result = linear(arr, target)
 print(result)
 
+
