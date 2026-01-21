@@ -203,20 +203,38 @@
 
 
 
-class Parent:
-    def show(self):
-        print("Parent")
+# class Parent:
+#     def show(self):
+#         print("Parent")
 
-class Child(Parent):
-    def show(self):
-        print("Child")
+# class Child(Parent):
+#     def show(self):
+#         print("Child")
 
-obj = (Parent(), Child())
-for object in obj:
-    object.show()
+# obj = (Parent(), Child())
+# for object in obj:
+#     object.show()
 
 
+############# REVISION #################
 
+class Person:
+    def __init__(self, name , age):
+        self.name = name
+        self._age = age
+        self.__salary = 5000
+    
+    def show_salary(self):
+        return self.__salary
+    
+
+p = Person("Zaid", 23)
+
+print(p.name)
+print(p._age)
+print(p.show_salary())
+        
+    
 
 
 
