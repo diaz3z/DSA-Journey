@@ -11,13 +11,40 @@ indices of "2" and "9"
 
 """
 
-class Solution:
-    def TwoSum(self, nums: list[int], target: int) -> list[int]:
-        prevMap = {}
+# class Solution:
+#     def TwoSum(self, nums: list[int], target: int) -> list[int]:
+#         prevMap = {}
 
-        for i, val in enumerate(nums):
-            diff = target - val
-            if diff in prevMap:
-                return prevMap[diff], i
-            prevMap[val] = i
-        return
+#         for i, val in enumerate(nums):
+#             diff = target - val
+#             if diff in prevMap:
+#                 return prevMap[diff], i
+#             prevMap[val] = i
+#         return
+    
+
+
+
+
+
+
+nums = [2,5,9,6]
+target = 11
+
+
+def twoSum(nums, target):
+    prevMap = {}
+
+    for index, val in enumerate(nums):
+        diff = target - val
+        if diff in prevMap:
+            print(f"index: {prevMap[diff]}, index: {index}")
+            return prevMap[diff], index
+        prevMap[val] = index
+
+    return
+
+
+twoSum(nums, target)
+
+
