@@ -34,20 +34,6 @@ nums = [2,5,9,6]
 target = 11
 
 
-# def twoSum(nums, target):
-#     prevMap = {}
-
-#     for index, val in enumerate(nums):
-#         diff = target - val
-#         if diff in prevMap:
-#             print(f"index: {prevMap[diff]}, index: {index}")
-#             return prevMap[diff], index
-#         prevMap[val] = index
-
-#     return
-
-
-
 
 def twoSum(nums, target):
     prevMap = {}
