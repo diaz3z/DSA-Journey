@@ -34,10 +34,9 @@ nums = [2,5,9,6]
 target = 11
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> fb5ae1c4d8c22090fbc1d0b1a25f8129e9c16bb5
+
+
 def twoSum(nums, target):
     prevMap = {}
 
