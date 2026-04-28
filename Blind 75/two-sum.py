@@ -33,8 +33,6 @@ indices of "2" and "9"
 nums = [2,5,9,6]
 target = 11
 
-
-
 def twoSum(nums, target):
     prevMap = {}
 
