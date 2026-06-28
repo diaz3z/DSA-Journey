@@ -4,6 +4,10 @@ print(f"Sorted array {nums}")
 target = 45
 
 
+
+
+
+
 def binarySeach(nums, target):
     l, r = 0, len(nums) - 1
     
