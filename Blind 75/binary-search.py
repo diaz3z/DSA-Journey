@@ -25,4 +25,7 @@ def binarySeach(nums, target):
 
 
 
+
+
+
 binarySeach(nums=nums, target=target)
