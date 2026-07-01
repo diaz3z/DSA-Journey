@@ -1,6 +1,3 @@
-
-
-
 def maxSubArray(nums):
     maxSub = nums[0]
     curSum = 0
