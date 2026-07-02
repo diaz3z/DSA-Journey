@@ -1,4 +1,3 @@
-
 def maxProduct(nums):
     res = max(nums)
 
@@ -14,3 +13,7 @@ def maxProduct(nums):
         curMin = max(tmp, i * curMin, i)
         res = max(res, curMax)
     return res
+
+
+
+
