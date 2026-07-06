@@ -9,8 +9,4 @@ def linearSeach(nums, target):
         
     return -1
 
-
-
-
-
 linearSeach(nums=nums, target=target)
