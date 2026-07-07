@@ -10,10 +10,6 @@
 #                 l = r
 #             r += 1
 
-
-
-
-
 def maxProfit(prices):
     l, r = 0, 1
     maxP = 0
