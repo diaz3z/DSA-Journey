@@ -14,7 +14,3 @@ def findMin(nums):
         else:
             r = m - 1
     return res
-
-
-
-
