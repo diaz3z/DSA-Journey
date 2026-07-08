@@ -37,3 +37,7 @@ def inserPosition(nums, target):
 inserPosition(nums, target)
     
     
+
+
+
+    
