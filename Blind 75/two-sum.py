@@ -22,14 +22,6 @@ indices of "2" and "9"
 #             prevMap[val] = i
 #         return
     
-
-
-
-
-
-
-
-
 nums = [2,5,9,6]
 target = 11
 
