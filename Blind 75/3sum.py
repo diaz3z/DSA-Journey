@@ -22,3 +22,9 @@ def threeSum(nums):
                     l += 1
 
     return res
+
+
+
+
+
+    
