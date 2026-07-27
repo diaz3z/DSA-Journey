@@ -1,6 +1,11 @@
 
 
 
+
+
+
+
+
 def productExceptSelf(nums):
     res = [1] * len(nums)
 
