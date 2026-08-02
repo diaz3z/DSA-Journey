@@ -5,10 +5,3 @@ def duplicate(nums):
             return True
         hashmap.add(i)
     return False
-
-
-
-
-
-
-
