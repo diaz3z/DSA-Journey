@@ -18,4 +18,9 @@ def binarySeach(nums, target):
             r = mid - 1
         
     return -1
+
+
+
+
+    
 binarySeach(nums=nums, target=target)
