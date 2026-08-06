@@ -19,4 +19,10 @@ def binarySeach(nums, target):
         
     return -1
 
+
+
+
+
+
+
 binarySeach(nums=nums, target=target)
