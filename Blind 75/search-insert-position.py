@@ -34,4 +34,9 @@ def inserPosition(nums, target):
     return l 
 
 
+
+
+
+
+
 inserPosition(nums, target)
